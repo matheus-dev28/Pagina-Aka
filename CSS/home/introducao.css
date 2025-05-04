@@ -39,3 +39,26 @@
   .hero button:hover {
     background: #FFB629;
   }
+
+  @media (max-width: 550px) {
+    .hero {
+      text-align: center;
+      padding: 40px 16px;
+    }
+  
+    .hero h1 {
+      width: 100%;
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      width: 100%;
+      font-size: 1rem;
+    }
+  
+    .hero button {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+    }
+  }
