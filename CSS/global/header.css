@@ -1,0 +1,25 @@
+.header-bg{
+    border-bottom: 3px solid #C20046;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #C20046;
+    font-weight: bold;
+  }
+
+  .navbar a:hover {
+    color: #FFB629;
+  }

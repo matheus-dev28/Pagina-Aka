@@ -1,0 +1,41 @@
+.introducao-bg{
+    background-color: rgba(129, 238, 226, .5);
+    background-image: url(/assets/fotoIntroducao.png);
+}
+
+.hero {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: left;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #C20046;
+    width: 10ch;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  
+  .hero p {
+    margin-top: 10px;
+    width: 48ch;
+    color: #0C4D8B;
+    margin-bottom: 40px;
+    font-weight: 700;
+  }
+  
+  .hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #C20046;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 20px;
+  }
+
+  .hero button:hover {
+    background: #FFB629;
+  }

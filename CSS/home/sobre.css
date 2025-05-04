@@ -1,0 +1,44 @@
+.sobre-bg{
+    padding: 60px 0px;
+}
+
+.sobre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.sobre h3{
+    color:#0C4D8B;
+}
+
+.sobre-desc{
+    background-color: #f9f9f9;
+    padding: 30px 60px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1);
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 25px;
+}
+
+.sobre-desc p{
+    font-size: 0.8rem;
+}
+
+.sobre-desc span{
+    color: #0C4D8B;
+    font-weight: 700;
+}
+
+  .display-sobre{
+    display: flex;
+    color: #C20046;
+    margin-bottom: 60px;
+}
+
+.display-sobre img{
+   margin-right: 8px;
+}

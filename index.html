@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AKÃ Assessoria</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="chat.css">
+</head>
+
+<body>
+
+    <header class="header-bg">
+        <div class="navbar container">
+            <div class="logo">
+                <img src="./assets/logoAka.svg" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Início</a></li>
+                    <li><a href="#Servicos">Serviços</a></li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#">Depoimentos</a></li>
+                    <li><a href="#Contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="introducao-bg">
+        <div class="hero container">
+            <h1>Soluções em educação e eventos</h1>
+            <p>Especialista em prestar assessoria e consultoria na área pedagógica, pensando no ensino de sua
+                instituição, além disso, planejamos, organizamos e coordenamos todo tipo de evento para você e sua
+                empresa.</p>
+            <button>Saiba mais</button>
+        </div>
+    </section>
+
+    <section id="Servicos" class="servicos container">
+        <div class="display">
+            <img src="/assets/iconeServiços.svg" alt="">
+            <h2>Serviços</h2>
+        </div>
+        <p class="desc">Dê uma turbinada <br> no seu negócio</p>
+        <div class="cards">
+            <div class="card">
+                <div class="img">
+                    <img src="/assets/iconeAssessoria.svg" alt="">
+                </div>  
+                <h3>Assessoria Pedagógica</h3>
+                <p>A equipe de profissionais é formada por educadores do mais alto gabarito, especialistas em sistemas de qualidade, com experiência nas funções de coordenadoria</p>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="/assets/iconeConcurso.svg" alt="">
+                </div>  
+                <h3>Assessoria Pedagógica</h3>
+                <p>Somos especialistas na organização de concursos públicos e processos seletivos de diversos níveis educacionais.</p>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="/assets/iconeCursos.svg" alt="">
+                </div>   
+                <h3>Assessoria Pedagógica</h3>
+                <p>Cursos que ajudam no aperfeiçoamento dos profissionais e dos processos educacionais</p>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="/assets/iconeGestao.svg" alt="">
+                </div>   
+                <h3>Assessoria Pedagógica</h3>
+                <p>Avaliamos e orientamos ações que promovam melhoria de sistemas de gestão de qualidade, direção e supervisão.</p>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="/assets/iconeImersao.svg" alt="">
+                </div>
+                <h3>Assessoria Pedagógica</h3>
+                <p>Oferecemos uma experiência transformadora, unindo estudo do sistema educacional e imersão cultural para uma visão global e inovadora.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Sobre" class="sobre-bg container">
+        <div class="display-sobre">
+            <img src="/assets/iconeSobre.svg" alt="">
+            <h2>Sobre</h2>
+        </div>
+        <div class="sobre">
+            <div>
+                <h3>Os melhores profissionais</h3>
+                <img src="/assets/imagemSobre.svg" alt="">
+            </div>
+            <div>
+                <div class="sobre-desc">
+                    <img src="/assets/iconeLampada.svg" alt="">
+                    <p><span>Akã</span> é uma expressão de origem indígena que no tupi-guarani quer dizer: <span>Pensamento</span>, <span>mente</span> e <span>cabeça </span>. <br>O significado dessa terminologia reproduz a linha de trabalho da Akã, criar soluções que atendam às necessidades de sua empresa ou instituição, potencializando suas qualidades e neutralizando suas fragilidades.</p>
+                </div>
+                <div class="sobre-desc">
+                    <img src="/assets/IconeCerebro.svg" alt="">
+                    <p>A <span>Akã</span> é especialista na organização de concursos públicos e processos seletivos. Ela que organiza o Simuladão da Gazeta, que <span>já testou conhecimento de mais de 50 mil aspirantes</span> à vida universitária. O simulado é uma referência em Mato Grosso - MT para os participantes analisarem como se sairiam num vestibular real. O concurso funciona como um termômetro para aferir como está o conhecimento do candidato.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contato" class="contato-bg">
+        <div class="contato container">
+        <div class="info">
+            <h3>Entrar em contato</h3>
+            <p>A Akã é especialista em educação e eventos! Oferecemos consultoria pedagógica, organizamos concursos públicos e planejamos eventos personalizados para sua instituição ou empresa.</p>
+            <div class="email">
+                <img src="/assets/iconeEmail.svg" alt="">
+                <a href="mailto:aka.evento@gmail.com">aka.evento@gmail.com</a>
+            </div>
+        </div>
+        <form id="form-contato" action="https://formsubmit.co/ajax/matheushale@gmail.com" method="POST">
+            <!-- Campos obrigatórios para o FormSubmit -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Nova mensagem do formulário do site!">
+            <input type="hidden" name="_template" value="box">
+
+            <!-- Campos do usuário -->
+             <div class="input-nome">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome" required />
+             </div>
+             <div class="input-sobrenome">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required />
+             </div>
+            <div class="input-email">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required />
+            </div>
+            <div class="textarea">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem" rows="5" required></textarea>
+            </div>
+  
+            <button type="submit">Enviar</button>
+
+        </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>©2025 por Akã Assessoria.</p>
+    </footer>
+    <!-- Botão flutuante -->
+    <div id="chat-icon" onclick="toggleChat()">
+        <img src="./assets/Group 10.svg" alt="">
+    </div>
+
+    <!-- Janela do Chat -->
+    <div id="chat-window">
+        <div class="chat-header">
+            <img src="assets/logoAka.svg" alt="Logo Aká" class="chat-logo" />
+            <div class="chat-title">
+                <h3>Akã</h3>
+                <p>Responderemos assim que possível</p>
+            </div>
+            <button class="close-chat">×</button>
+        </div>
+
+        <div class="chat-body" id="chat-body"></div>
+
+        <!-- Formulário do chat -->
+        <form id="chat-form" class="chat-footer" action="https://formsubmit.co/ajax/matheushale@gmail.com" method="POST">
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Nova mensagem via Chat Akã!">
+            <input type="hidden" name="_template" value="box">
+
+            <!-- Campos ocultos para enviar via form -->
+            <input type="hidden" name="mensagem_usuario" id="hidden-message">
+            <input type="hidden" name="email_usuario" id="hidden-email">
+
+            <!-- Campo de texto visível -->
+            <input type="text" id="chat-input" placeholder="Escreva uma mensagem" required />
+            <button type="submit">➤</button>
+        </form>
+    </div>
+
+    <script>
+        let userMessage = "";
+        let userEmail = ""; // Novo: guarda o e-mail do usuário
+        let isAskingEmail = false;
+        let hasWelcomed = false;
+
+        function toggleChat() {
+            const chatWindow = document.getElementById('chat-window');
+            const chatBody = document.getElementById('chat-body');
+
+            if (chatWindow.style.display === 'flex') {
+                chatWindow.style.display = 'none';
+            } else {
+                chatWindow.style.display = 'flex';
+
+                // Exibe a mensagem de boas-vindas apenas uma vez
+                if (!hasWelcomed) {
+                    appendMessage("bot", "Qual a sua dúvida?");
+                    hasWelcomed = true;
+                }
+
+                chatBody.scrollTop = chatBody.scrollHeight;
+            }
+        }
+        // Adicionando o evento de clique no botão de fechar para fechar a janela
+        document.querySelector('.close-chat').addEventListener('click', function () {
+            const chatWindow = document.getElementById('chat-window');
+            chatWindow.style.display = 'none';
+        });
+        const form = document.getElementById("chat-form");
+        const input = document.getElementById("chat-input");
+        const chatBody = document.getElementById("chat-body");
+
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const msg = input.value.trim();
+            if (!msg) return;
+
+            appendMessage("user", msg);
+            if (!userEmail) {
+                if (!isAskingEmail) {
+                    userMessage = msg;
+
+                    appendMessage("bot", "Obrigado! Agora informe seu e-mail para que possamos responder.");
+
+                    input.value = "";
+                    isAskingEmail = true;
+                    return;
+                } else {
+                    userEmail = msg;
+
+                    document.getElementById("hidden-message").value = userMessage;
+                    document.getElementById("hidden-email").value = userEmail;
+
+                    // Monta os dados do formulário
+                    const formData = new FormData(form);
+
+                    fetch("https://formsubmit.co/ajax/matheushale@gmail.com", {
+                        method: "POST",
+                        body: formData
+                    })
+                        .then(response => {
+                            if (response.ok) {
+                                appendMessage("bot", "Mensagem enviada com sucesso! Responderemos por e-mail. ✅");
+                                input.value = "";
+                                input.disabled = false;
+                                input.focus();
+                                form.querySelector("button").disabled = false;
+
+                                userMessage = "";
+                                isAskingEmail = false;
+
+                                setTimeout(() => {
+                                    appendMessage("bot", "Tem mais alguma dúvida?");
+                                }, 1500);
+                            } else {
+                                appendMessage("bot", "Ocorreu um erro ao enviar sua mensagem. 😕");
+                            }
+                        })
+                        .catch(() => {
+                            appendMessage("bot", "Erro de rede ao enviar a mensagem. Verifique sua conexão.");
+                        });
+
+                    input.value = "";
+                    return;
+                }
+            } else {
+                // Já temos o e-mail, só atualiza a mensagem
+                userMessage = msg;
+                document.getElementById("hidden-message").value = userMessage;
+                document.getElementById("hidden-email").value = userEmail;
+
+                // Monta os dados do formulário
+                const formData = new FormData(form);
+
+                // Envia via fetch para FormSubmit
+                fetch("https://formsubmit.co/ajax/matheushale@gmail.com", {
+                    method: "POST",
+                    body: formData
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            appendMessage("bot", "Mensagem enviada com sucesso! Responderemos por e-mail. ✅");
+                            input.value = "";
+                            input.disabled = false;
+                            input.focus();
+                            form.querySelector("button").disabled = false;
+
+                            // Resetar estado para permitir nova pergunta
+                            userMessage = "";
+                            isAskingEmail = false;
+
+                            // Mensagem de reinício opcional
+                            setTimeout(() => {
+                                appendMessage("bot", "Tem mais alguma dúvida?");
+
+                                // Reativa o botão e limpa o campo
+                                input.disabled = false;
+                                input.value = "";
+                                input.focus();
+                                form.querySelector("button").disabled = false;
+
+                            }, 1000);
+
+                        } else {
+                            appendMessage("bot", "Ocorreu um erro ao enviar sua mensagem. Tente novamente.");
+                        }
+                    })
+                    .catch(error => {
+                        appendMessage("bot", "Erro de conexão. Verifique sua internet.");
+                    });
+            }
+        });
+
+        function appendMessage(sender, text) {
+            const div = document.createElement("div");
+            div.className = `msg ${sender}`;
+            const time = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            div.innerHTML = `${text}<span class="time">${time}</span>`;
+            chatBody.appendChild(div);
+            chatBody.scrollTop = chatBody.scrollHeight;
+        }
+    </script>
+    <script>
+        const formContato = document.getElementById("form-contato");
+        const statusMsg = document.getElementById("mensagem-status");
+
+        formContato.addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const formData = new FormData(formContato);
+
+            fetch("https://formsubmit.co/ajax/matheushale@gmail.com", {
+                method: "POST",
+                body: formData
+            })
+                .then(response => {
+                    if (response.ok) {
+                        statusMsg.textContent = "Mensagem enviada com sucesso! ✅";
+                        statusMsg.style.color = "green";
+                        formContato.reset();
+                    } else {
+                        statusMsg.textContent = "Erro ao enviar mensagem. Tente novamente.";
+                        statusMsg.style.color = "red";
+                    }
+                })
+                .catch(error => {
+                    statusMsg.textContent = "Erro de conexão. Verifique sua internet.";
+                    statusMsg.style.color = "red";
+                });
+        });
+    </script>
+
+
+</body>
+
+</html>

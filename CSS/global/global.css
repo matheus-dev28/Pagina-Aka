@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Congenial";
+    line-height: 1.5;
+  }
+
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  label{
+    display: block;
+    margin-bottom: 4px;
+  }
+  
