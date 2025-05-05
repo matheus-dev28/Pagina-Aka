@@ -457,6 +457,15 @@ backToTop.addEventListener("click", () => {
             }
         });
 
+        const menuLinks = document.querySelectorAll('#menu-modal a');
+
+menuLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    menuModal.style.display = 'none';
+    document.body.classList.remove('modal-open');
+  });
+});
+
     </script>
 
 
