@@ -57,8 +57,11 @@
     }
   
     .hero button {
-      width: 100%;
-      padding: 12px;
+      width: 80%;
+      max-width: 230px;
       font-size: 1rem;
+      margin: 20px auto 0;
+      display: block;
+      border-radius: 24px;
     }
   }
