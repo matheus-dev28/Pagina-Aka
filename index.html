@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AKÃ Assessoria</title>
     <link rel="stylesheet" href="./CSS/styles.css" />
-    
+
 </head>
 
 <body>
@@ -15,6 +15,22 @@
         <div class="navbar container">
             <div class="logo">
                 <img src="./assets/logoAka.svg" alt="">
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                &#9776;
+            </div>
+            <!-- Modal de menu mobile -->
+            <div id="menu-modal" class="menu-modal">
+                <div class="modal-content">
+                    <button class="close-modal" id="close-modal">×</button>
+                    <ul>
+                        <li><a href="/">Início</a></li>
+                        <li><a href="#Servicos">Serviços</a></li>
+                        <li><a href="#Sobre">Sobre</a></li>
+                        <li><a href="#">Depoimentos</a></li>
+                        <li><a href="#Contato">Contato</a></li>
+                    </ul>
+                </div>
             </div>
             <nav>
                 <ul>
@@ -48,107 +64,121 @@
             <div class="card">
                 <div class="img">
                     <img src="/assets/iconeAssessoria.svg" alt="">
-                </div>  
+                </div>
                 <h3>Assessoria Pedagógica</h3>
-                <p>A equipe de profissionais é formada por educadores do mais alto gabarito, especialistas em sistemas de qualidade, com experiência nas funções de coordenadoria</p>
+                <p>A equipe de profissionais é formada por educadores do mais alto gabarito, especialistas em sistemas
+                    de qualidade, com experiência nas funções de coordenadoria</p>
             </div>
             <div class="card">
                 <div class="img">
                     <img src="/assets/iconeConcurso.svg" alt="">
-                </div>  
+                </div>
                 <h3>Concursos Públicos</h3>
-                <p>Somos especialistas na organização de concursos públicos e processos seletivos de diversos níveis educacionais.</p>
+                <p>Somos especialistas na organização de concursos públicos e processos seletivos de diversos níveis
+                    educacionais.</p>
             </div>
             <div class="card">
                 <div class="img">
                     <img src="/assets/iconeCursos.svg" alt="">
-                </div>   
+                </div>
                 <h3>Cursos</h3>
                 <p>Cursos que ajudam no aperfeiçoamento dos profissionais e dos processos educacionais</p>
             </div>
             <div class="card">
                 <div class="img">
                     <img src="/assets/iconeGestao.svg" alt="">
-                </div>   
+                </div>
                 <h3>Gestão educacional</h3>
-                <p>Avaliamos e orientamos ações que promovam melhoria de sistemas de gestão de qualidade, direção e supervisão.</p>
+                <p>Avaliamos e orientamos ações que promovam melhoria de sistemas de gestão de qualidade, direção e
+                    supervisão.</p>
             </div>
             <div class="card">
                 <div class="img">
                     <img src="/assets/iconeImersao.svg" alt="">
                 </div>
                 <h3>Imersão Pedagógica</h3>
-                <p>Oferecemos uma experiência transformadora, unindo estudo do sistema educacional e imersão cultural para uma visão global e inovadora.</p>
+                <p>Oferecemos uma experiência transformadora, unindo estudo do sistema educacional e imersão cultural
+                    para uma visão global e inovadora.</p>
             </div>
         </div>
     </section>
 
     <section id="Sobre" class="sobre-bg container">
         <div class="container">
-        <div class="display-sobre">
-            <img src="/assets/iconeSobre.svg" alt="">
-            <h2>Sobre</h2>
-        </div>
-        <div class="sobre">
-            <div>
-                <h3>Os melhores profissionais</h3>
-                <img src="/assets/imagemSobre.svg" alt="">
+            <div class="display-sobre">
+                <img src="/assets/iconeSobre.svg" alt="">
+                <h2>Sobre</h2>
             </div>
-            <div>
-                <div class="sobre-desc">
-                    <img src="/assets/iconeLampada.svg" alt="">
-                    <p><span>Akã</span> é uma expressão de origem indígena que no tupi-guarani quer dizer: <span>Pensamento</span>, <span>mente</span> e <span>cabeça </span>. <br>O significado dessa terminologia reproduz a linha de trabalho da Akã, criar soluções que atendam às necessidades de sua empresa ou instituição, potencializando suas qualidades e neutralizando suas fragilidades.</p>
+            <div class="sobre">
+                <div>
+                    <h3>Os melhores profissionais</h3>
+                    <img src="/assets/imagemSobre.svg" alt="">
                 </div>
-                <div class="sobre-desc">
-                    <img src="/assets/IconeCerebro.svg" alt="">
-                    <p>A <span>Akã</span> é especialista na organização de concursos públicos e processos seletivos. Ela que organiza o Simuladão da Gazeta, que <span>já testou conhecimento de mais de 50 mil aspirantes</span> à vida universitária. O simulado é uma referência em Mato Grosso - MT para os participantes analisarem como se sairiam num vestibular real. O concurso funciona como um termômetro para aferir como está o conhecimento do candidato.</p>
+                <div>
+                    <div class="sobre-desc">
+                        <img src="/assets/iconeLampada.svg" alt="">
+                        <p><span>Akã</span> é uma expressão de origem indígena que no tupi-guarani quer dizer:
+                            <span>Pensamento</span>, <span>mente</span> e <span>cabeça </span>. <br>O significado dessa
+                            terminologia reproduz a linha de trabalho da Akã, criar soluções que atendam às necessidades
+                            de sua empresa ou instituição, potencializando suas qualidades e neutralizando suas
+                            fragilidades.
+                        </p>
+                    </div>
+                    <div class="sobre-desc">
+                        <img src="/assets/IconeCerebro.svg" alt="">
+                        <p>A <span>Akã</span> é especialista na organização de concursos públicos e processos seletivos.
+                            Ela que organiza o Simuladão da Gazeta, que <span>já testou conhecimento de mais de 50 mil
+                                aspirantes</span> à vida universitária. O simulado é uma referência em Mato Grosso - MT
+                            para os participantes analisarem como se sairiam num vestibular real. O concurso funciona
+                            como um termômetro para aferir como está o conhecimento do candidato.</p>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 
     <section id="Contato" class="contato-bg">
         <div class="container">
-        <div class="contato container">
-        <div class="info">
-            <h3>Entrar em contato</h3>
-            <p>A Akã é especialista em educação e eventos! Oferecemos consultoria pedagógica, organizamos concursos públicos e planejamos eventos personalizados para sua instituição ou empresa.</p>
-            <div class="email">
-                <img src="/assets/iconeEmail.svg" alt="">
-                <a href="mailto:aka.evento@gmail.com">aka.evento@gmail.com</a>
+            <div class="contato container">
+                <div class="info">
+                    <h3>Entrar em contato</h3>
+                    <p>A Akã é especialista em educação e eventos! Oferecemos consultoria pedagógica, organizamos
+                        concursos públicos e planejamos eventos personalizados para sua instituição ou empresa.</p>
+                    <div class="email">
+                        <img src="/assets/iconeEmail.svg" alt="">
+                        <a href="mailto:aka.evento@gmail.com">aka.evento@gmail.com</a>
+                    </div>
+                </div>
+                <form id="form-contato" action="https://formsubmit.co/ajax/aka.evento@gmail.com" method="POST">
+                    <!-- Campos obrigatórios para o FormSubmit -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Nova mensagem do formulário do site!">
+                    <input type="hidden" name="_template" value="box">
+
+                    <!-- Campos do usuário -->
+                    <div class="input-nome">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required />
+                    </div>
+                    <div class="input-sobrenome">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required />
+                    </div>
+                    <div class="input-email">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required />
+                    </div>
+                    <div class="textarea">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" placeholder="Mensagem" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                    <p id="mensagem-status"></p>
+
+                </form>
             </div>
         </div>
-        <form id="form-contato" action="https://formsubmit.co/ajax/aka.evento@gmail.com" method="POST">
-            <!-- Campos obrigatórios para o FormSubmit -->
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_subject" value="Nova mensagem do formulário do site!">
-            <input type="hidden" name="_template" value="box">
-
-            <!-- Campos do usuário -->
-             <div class="input-nome">
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" placeholder="Nome" required />
-             </div>
-             <div class="input-sobrenome">
-                <label for="sobrenome">Sobrenome</label>
-                <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required />
-             </div>
-            <div class="input-email">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Email" required />
-            </div>
-            <div class="textarea">
-                <label for="mensagem">Mensagem</label>
-                <textarea name="mensagem" id="mensagem" placeholder="Mensagem" rows="5" required></textarea>
-            </div>
-  
-            <button type="submit">Enviar</button>
-            <p id="mensagem-status"></p>
-
-        </form>
-        </div>
-    </div>
     </section>
 
     <footer>
@@ -189,9 +219,13 @@
         </form>
     </div>
 
+    <button id="back-to-top" title="Voltar ao topo">
+        <img src="assets/iconeVoltarTopo.svg" alt="Voltar ao topo" width="24" height="24" />
+      </button>
+
     <script>
         let userMessage = "";
-        let userEmail = ""; // Novo: guarda o e-mail do usuário
+        let userEmail = ""; 
         let isAskingEmail = false;
         let hasWelcomed = false;
 
@@ -361,6 +395,60 @@
                     statusMsg.style.color = "red";
                 });
         });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("menu-toggle").addEventListener("click", function () {
+                const menu = document.querySelector("nav ul");
+                menu.classList.toggle("active");
+            });
+        });
+
+        document.querySelectorAll(".navbar ul li a").forEach(link => {
+            link.addEventListener("click", () => {
+                document.querySelector("nav ul").classList.remove("active");
+            });
+        });
+
+        const backToTop = document.getElementById("back-to-top");
+let scrollTimeout;
+
+window.addEventListener("scroll", () => {
+  if (window.innerWidth <= 768) {
+    if (window.scrollY > 300) {
+      backToTop.classList.add("visible");
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        backToTop.classList.remove("visible");
+      }, 2000);
+    } else {
+      backToTop.classList.remove("visible");
+      clearTimeout(scrollTimeout);
+    }
+  } else {
+    backToTop.classList.remove("visible");
+  }
+});
+
+        const menuToggle = document.getElementById('menu-toggle');
+        const menuModal = document.getElementById('menu-modal');
+        const closeModal = document.getElementById('close-modal');
+
+        menuToggle.addEventListener('click', () => {
+            menuModal.style.display = 'flex';
+            document.body.classList.add('modal-open');
+        });
+
+        closeModal.addEventListener('click', () => {
+            menuModal.style.display = 'none';
+            document.body.classList.remove('modal-open');
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target === menuModal) {
+                menuModal.style.display = 'none';
+            }
+        });
+
     </script>
 
 

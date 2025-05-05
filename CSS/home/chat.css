@@ -127,3 +127,29 @@
     color: #c32059;
     cursor: pointer;
   }
+
+  @media (max-width: 600px) {
+    #chat-window {
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 0;
+    }
+  
+    .chat-header {
+      border-radius: 0;
+    }
+  
+    .chat-footer input {
+      height: 60px; 
+      font-size: 16px; 
+    }
+  
+    .chat-footer button {
+      padding: 0 16px; 
+      font-size: 24px; 
+    }
+  }

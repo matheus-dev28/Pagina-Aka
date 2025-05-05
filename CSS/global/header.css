@@ -23,28 +23,86 @@
   .navbar a:hover {
     color: #FFB629;
   }
-
-  @media (max-width: 650px) {
-    .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 16px;
-      padding: 16px;
-    }
-  
-    .navbar ul {
-      flex-direction: column;
-      gap: 12px;
-      width: 100%;
-    }
-  
-    .navbar li {
-      width: 100%;
-    }
-  
-    .navbar a {
-      display: block;
-      width: 100%;
-      padding: 8px 0;
-    }
+  .menu-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #C20046;
   }
+  .menu-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #C20046;
+  }
+  
+  .menu-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-modal .modal-content {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding-top: 4rem;
+    border-radius: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+.menu-modal .modal-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-modal .modal-content li {
+  margin: 1rem 0;
+}
+
+.menu-modal .modal-content a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #C20046;
+  text-decoration: none;
+}
+
+.close-modal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #C20046;
+  cursor: pointer;
+}
+.menu-modal .modal-content ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+body.modal-open {
+  overflow: hidden;
+}
+@media (max-width: 650px) {
+  nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
