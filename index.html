@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AKÃ Assessoria</title>
     <link rel="stylesheet" href="./CSS/styles.css" />
-    <link rel="stylesheet" href="chat.css">
+    
 </head>
 
 <body>
@@ -119,7 +119,7 @@
                 <a href="mailto:aka.evento@gmail.com">aka.evento@gmail.com</a>
             </div>
         </div>
-        <form id="form-contato" action="https://formsubmit.co/ajax/matheushale@gmail.com" method="POST">
+        <form id="form-contato" action="https://formsubmit.co/ajax/aka.evento@gmail.com" method="POST">
             <!-- Campos obrigatórios para o FormSubmit -->
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_subject" value="Nova mensagem do formulário do site!">
@@ -144,6 +144,7 @@
             </div>
   
             <button type="submit">Enviar</button>
+            <p id="mensagem-status"></p>
 
         </form>
         </div>
@@ -172,7 +173,7 @@
         <div class="chat-body" id="chat-body"></div>
 
         <!-- Formulário do chat -->
-        <form id="chat-form" class="chat-footer" action="https://formsubmit.co/ajax/matheushale@gmail.com" method="POST">
+        <form id="chat-form" class="chat-footer" action="https://formsubmit.co/ajax/aka.evento@gmail.com" method="POST">
 
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_subject" value="Nova mensagem via Chat Akã!">
@@ -246,7 +247,7 @@
                     // Monta os dados do formulário
                     const formData = new FormData(form);
 
-                    fetch("https://formsubmit.co/ajax/matheushale@gmail.com", {
+                    fetch("https://formsubmit.co/ajax/aka.evento@gmail.com", {
                         method: "POST",
                         body: formData
                     })
@@ -285,7 +286,7 @@
                 const formData = new FormData(form);
 
                 // Envia via fetch para FormSubmit
-                fetch("https://formsubmit.co/ajax/matheushale@gmail.com", {
+                fetch("https://formsubmit.co/ajax/aka.evento@gmail.com", {
                     method: "POST",
                     body: formData
                 })
@@ -341,14 +342,14 @@
 
             const formData = new FormData(formContato);
 
-            fetch("https://formsubmit.co/ajax/matheushale@gmail.com", {
+            fetch("https://formsubmit.co/ajax/aka.evento@gmail.com", {
                 method: "POST",
                 body: formData
             })
                 .then(response => {
                     if (response.ok) {
                         statusMsg.textContent = "Mensagem enviada com sucesso! ✅";
-                        statusMsg.style.color = "green";
+                        statusMsg.style.color = "grey";
                         formContato.reset();
                     } else {
                         statusMsg.textContent = "Erro ao enviar mensagem. Tente novamente.";
